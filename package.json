@@ -1,0 +1,41 @@
+{
+  "name": "react-web-audio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mic-recorder-to-mp3": "^2.2.2",
+    "react": "^16.4.2",
+    "react-audio-recorder": "^2.2.0",
+    "react-audio-voice-recorder": "^1.0.11",
+    "react-dom": "^16.4.2",
+    "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.9.3",
+    "recordrtc": "^5.6.2",
+    "start": "^5.1.0",
+    "tone": "^14.7.77",
+    "tsparticles": "^2.9.3",
+    "use-sound": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2",
+    "web-audio-peak-meter": "^3.1.0"
+  }
+}

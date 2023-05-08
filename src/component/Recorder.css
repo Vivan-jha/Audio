@@ -1,0 +1,41 @@
+
+/* recorder.css */
+
+.recorder-button {
+    position: relative;
+    background-color: #d05cc4;
+    border: none;
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 180px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .recorder-button:after {
+    content: "";
+    background: #edb4e7;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .recorder-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  /* Other styles... */
+    
